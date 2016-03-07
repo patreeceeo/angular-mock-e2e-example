@@ -1,0 +1,7 @@
+<form ng-submit="login()">
+  <span ng-show="error.incorrectLogin" class="alert-message error">email or password is incorrect</span>
+  <input type="text" ng-model="creds.email" placeholder="email">
+  <input type="password" ng-model="creds.password" placeholder="password">
+  <input type="submit" value="login">
+</form>
+

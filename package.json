@@ -1,0 +1,24 @@
+{
+  "name": "angular-mock-e2e-example",
+  "version": "0.0.1",
+  "description": "Behold the glory of ngMockE2E!",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "PAUSE_ON_FAILURE=true node_modules/.bin/protractor test/e2e/protractor-config.js"
+  },
+  "author": "Patrick Canfield",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-cookies": "^1.5.0",
+    "angular-route": "^1.5.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.0",
+    "jasmine-spec-reporter": "^2.4.0",
+    "protractor": "^3.1.1"
+  }
+}
