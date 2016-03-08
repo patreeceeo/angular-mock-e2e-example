@@ -1,6 +1,6 @@
 "use strict";
 
-angular.module("example-app.login-page_mock", ["example-app.login-page", "ngMockE2E"]).run(function ($httpBackend) {
+angular.module("example-app.login-page_mock", ["ngMockE2E"]).run(function ($httpBackend) {
 
   var user = {
     email: "gb@shaw.ca",
