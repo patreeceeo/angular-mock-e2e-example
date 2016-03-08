@@ -16,7 +16,6 @@ gulp.task("build:html", function(){
         "/node_modules/angular-route/angular-route.js",
         "/src/login-page/login-page.js",
         "/src/login-page/login-page_mock.js",
-        "/src/login-page/login-service.js",
         "/src/dashboard-page/dashboard-page.js",
         "/src/deps.js",
         "/src/init.js"
@@ -35,7 +34,6 @@ gulp.task("dev:build:html", function(){
         "/node_modules/angular-route/angular-route.js",
         "/src/login-page/login-page.js",
         "/src/login-page/login-page_mock.js",
-        "/src/login-page/login-service.js",
         "/src/dashboard-page/dashboard-page.js",
         "/src/dev-deps.js",
         "/src/init.js"
