@@ -12,7 +12,7 @@ angular.module("example-app.login-page_mock", ["example-app.login-page", "ngMock
     if(user.email === creds.email && user.password === creds.password) {
       return [200, {}];
     } else {
-      return [401, "denied"];
+      return [401, {}, null, "email or password is incorrect"];
     }
   });
 
