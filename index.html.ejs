@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="example-app">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>ngMockE2E Example</title>
+
+    <link href="/css/app.css" rel="stylesheet">
+
+    <% for(index in scripts) { %>
+    <script src="<%- scripts[index] -%>"></script>
+    <% } %>
+  </head>
+  <body ng-view>
+  </body>
+</html>
+
+<!-- vim: set filetype=html -->

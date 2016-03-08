@@ -1,11 +1,6 @@
 "use strict";
 
-angular.module("example-app", [
-  "ngRoute",
-  "example-app.login-page",
-  "example-app.login-page_mock",
-  "example-app.dashboard-page"
-])
+angular.module("example-app")
   .config(function ($routeProvider) {
     $routeProvider
       .when("/login", {

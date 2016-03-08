@@ -141,7 +141,7 @@ Page.prototype.elements = function (locatorAlias) {
 };
 
 Page.prototype.get = function () {
-  return browser.get("/#" + this.url);
+  return browser.get("#" + this.url);
 };
 
 module.exports = Page;

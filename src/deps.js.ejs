@@ -1,0 +1,8 @@
+"use strict";
+
+angular.module("example-app", [
+<% for(var index in modules) { %>
+  "<%- modules[index] -%>",
+<% } %>
+]);
+
