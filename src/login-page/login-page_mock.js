@@ -16,5 +16,5 @@ angular.module("example-app.login-page_mock", ["example-app.login-page", "ngMock
     }
   });
 
-  $httpBackend.whenGET(/\.html$/).passThrough();
+  $httpBackend.whenGET(/\.html$/).passThrough(); // Allow templates to be downloaded
 });
